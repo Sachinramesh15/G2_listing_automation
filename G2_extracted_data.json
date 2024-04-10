@@ -1,0 +1,52 @@
+[
+    {
+        "name": "Simple Custom Reports for Jira",
+        "description": "A powerful tool that allows you to create custom reports and gadgets for your team's kanban, scrum, or any other project management methodology with minimal configuration. With this app, you can instantly generate insightful and easy-to-use reports that give you a bird's eye view of your team's performance and progress, helping you make informed decisions and stay on top of your projects.\n\nOur app is designed to be user-friendly and intuitive, allowing you to quickly and easily configure the data you want to display and choose from a variety of chart types, including bar charts, pie charts, and line graphs. You can also customize the look and feel of your reports with a range of visual themes, making it easy to match your company's branding and style.\n\nWhether you're a project manager, team lead, or team member, our app for Jira is the perfect tool to help you stay organized, track progress, and drive results. Try it today and see how easy it is to get the insights you need to make your team more productive and successful.",
+        "product_url": "https://www.simple-reports.com/about-agilis"
+    },
+    {
+        "name": "Ampliz Healthcare Intelligence",
+        "description": "Ampliz, the leading healthcare data provider, fulfills the data needs of Medical Device Manufacturing Companies, Pharmaceutical Companies, Healthcare Recruitment Firms, Medical Representatives, Diagnostic Centers, and all other healthcare-related subsidiaries.",
+        "product_url": "https://www.ampliz.com/healthcare-intelligence"
+    },
+    {
+        "name": "MAKRAM SRL",
+        "description": null,
+        "product_url": "https://www.ibm.com/partnerworld/bpdirectory/partner/6q05y/makram-srl/6q05z/"
+    },
+    {
+        "name": "Isogen",
+        "description": "Isogen is the world's leading solution for the total automation of piping isometric drawing production and is the Hexagon PPM standard system for drawing piping isometrics. Isogen is bundled with Intergraph Smart 3D, PDS, CADWorx, CAESAR II, and SmartPlant Spoolgen and SmartPlant Isometrics",
+        "product_url": "https://hexagonppm.com/products/pfc-product-family/isogen"
+    },
+    {
+        "name": "GetJobsDone",
+        "description": "GetJobsDone is a platform with more than 10,000 ambitious young talents who carry out assignments for various clients. Working with GetJobsDone gives you the following:\n\n- Work based on output and get started immediately by means of an assignment agreement\n- Build a flexible pool of talented young professionals\n- Use the fresh perspective of young talents and get direct access to more than 10,000 employees of the future",
+        "product_url": "https://www.getjobsdone.nl/en/"
+    },
+    {
+        "name": "IMSWARE.GO",
+        "description": "IMSWARE Technology offers complete solution packages from consultation to turn-key installation, having all the tools to fulfill your various legal obligations e.g. operator liability, risk analysis etc.",
+        "product_url": "https://www.imsware.de/en/software/cafm-software-facility-management"
+    },
+    {
+        "name": "Keeper",
+        "description": "Keeper is an all-in-one app to streamline bookkeeping and client accounting services.\n \n\n Keeper sync directly to your client's QuickBooks file. This powers your custom-branded Client Portal, file reviews, management reporting, and workflow management.\n \n\n Stay on top of your work, get faster responses from your clients, and deliver reports they'll actually read. Try Keeper for free for 14 days, or schedule a customized demo to learn more.",
+        "product_url": "https://www.keeper.app/features"
+    },
+    {
+        "name": "EWCart",
+        "description": "EWCart is the ideal eCommerce platform for you, offering you what you need for your business, plus your very own team of web developers to build and manage your site at no extra cost.",
+        "product_url": "https://www.ewcart.io/pricing/"
+    },
+    {
+        "name": "OKAMSZ IT SOLUTIONS",
+        "description": "OKAMSZ IT SOLUTIONS is a leading web application development company located in Trichy. Established by a group of well experienced software enthusiasts with great vision and knowledge in IT industry keeping digital marketing as focus. Our team has Indispensable knowledge in Mobile application development, Search Engine Optimization, eCommerce development, conversion optimization, custom application development, Search Engine Marketing and Info-graphics. Various software and tools are to build sites and applications for better results and ease of use. We solve complex problems at ease.We are Confined to provide best quality outputs adhering to customer\u2019s expectation, we always love to meet challenging customer requirements. The project team consists of full-time resources like analysts, designers, programmers, testers, etc., to work on projects.",
+        "product_url": "https://www.okamszitsolutions.in"
+    },
+    {
+        "name": "Savvycom Software",
+        "description": "Established in 2009, we\u2019ve consistently ranked among Vietnam\u2019s top 10 software development and IT outsourcing companies. Trusted by global enterprises, we now have offices in multiple countries, providing tailored solutions and IT team hiring services to address IT challenges and lower expenses.",
+        "product_url": "https://www.savvycomsoftware.com"
+    }
+]
