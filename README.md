@@ -1,4 +1,4 @@
-G2 Product Comparison Automation
+#G2 Product Comparison Automation
 This project automates the process of fetching data about new software products from the G2 website and Product Hunt API, compares the two datasets, and identifies products that are listed on Product Hunt but not on G2.
 
 Overview
