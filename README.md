@@ -1,49 +1,40 @@
-#G2_Product_Comparison_Automation
-This project automates the process of fetching data about new software products from the G2 website and Product Hunt API, compares the two datasets, and identifies products that are listed on Product Hunt but not on G2.
+# G2 Product Listing Automation
 
-Overview
-The script performs several key functions:
+This project automates the fetching of software product data from G2 and Product Hunt, compares the datasets to find unique entries in Product Hunt that are not listed in G2, and outputs these unique product names to a CSV file. It is intended to help users identify new software products on Product Hunt that may be potential candidates for inclusion on the G2 platform.
 
-Data Fetching: It retrieves data from the G2 API and Product Hunt API.
-Data Comparison: Compares the fetched data to find unique new software listings on Product Hunt that are not present on G2.
-Reporting: Outputs the unique listings to a CSV file.
-Setup and Configuration
-Prerequisites
-Python 3.x
+## Project Structure
 
-Install required Python libraries: requests and fuzzywuzzy. Install these using pip:
+- `fetch_and_compare.py`: Main script that integrates fetching data from G2, fetching data from Product Hunt, comparing the data, and saving the results.
+- `requirements.txt`: Contains all Python dependencies for the project.
+- `output/`: Directory where the output CSV file `unique_names.csv` is stored after script execution.
 
-bash
-Copy code
-pip install requests fuzzywuzzy python-Levenshtein
-Files
-main_script.py: The main Python script that handles data fetching, comparison, and output.
-G2_extracted_data.json: JSON file for storing the data fetched from G2.
-producthunt.json: JSON file for storing the data fetched from Product Hunt.
-unique_names.csv: Output file that lists unique software products found on Product Hunt but not on G2.
-Environment Variables
-Ensure you have set the following environment variables for the script to authenticate properly with the APIs:
+## Getting Started
 
-G2_API_KEY: Your G2 API key.
-PRODUCTHUNT_TOKEN: Your Product Hunt API token.
-You can set these variables in your environment or directly in the script (not recommended for production).
+### Prerequisites
 
-Usage
-To run the script, simply execute the following command in your terminal or command prompt:
+- Python 3.6+
+- pip
+- Access to G2 and Product Hunt APIs (API keys required)
 
-bash
-Copy code
-python main_script.py
-Automation
-To automate this script on a Windows system, use the Task Scheduler:
+### Installation
 
-Open Task Scheduler and create a new task.
-Set the trigger to the desired time for the script to run (e.g., daily at 3 AM).
-Set the action to start the program, pointing to your Python executable and providing the path to main_script.py as an argument.
-For Unix-based systems, set up a cron job as described in the script documentation.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Sachinramesh15/G2_listing_automation.git
+2. **install the packages though requirements.txt**
+  - ```bash
+     pip install -r requirements.txt
+3. **Set up environment variables**
+- Ensure you have the necessary API keys for G2 and Product Hunt. Set them as environment variables or directly in the script (not recommended for production).
+  ```bash
+  export G2_API_KEY='your_g2_api_key'
+  export PRODUCTHUNT_TOKEN='your_producthunt_token'
+The script will fetch data from both APIs, compare the data sets, and output the unique software names from Product Hunt to the output/unique_names.csv file.
 
-Output
-The script will generate a unique_names.csv file containing the names of software products that are listed on Product Hunt but not on G2. This file is saved in the project directory and can be used for further analysis or reporting.
+### Contributing
+Contributions are welcome! 
 
-Contributions
-Contributions are welcome. Please fork the repository and submit a pull request with your enhancements.
+
+
+
+
