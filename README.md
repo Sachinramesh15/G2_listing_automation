@@ -30,9 +30,37 @@ This project automates the fetching of software product data from G2 and Product
   export G2_API_KEY='your_g2_api_key'
   export PRODUCTHUNT_TOKEN='your_producthunt_token'
 The script will fetch data from both APIs, compare the data sets, and output the unique software names from Product Hunt to the output/unique_names.csv file.
+## Automating the Script
 
-### Contributing
-Contributions are welcome! 
+### Windows
+
+To automate the script on Windows, use the Task Scheduler to set it to run at regular intervals:
+
+1. **Search for 'Task Scheduler'** in the Start menu and open it.
+2. **Create a new task**:
+   - Click on 'Create Task' in the right sidebar.
+   - Under the 'General' tab, give your task a name.
+   - Under the 'Triggers' tab, click 'New' to set when the task should start. You can configure the task to run daily, weekly, or at any custom time interval.
+   - Under the 'Actions' tab, click 'New'. Set the action to 'Start a program'. In the 'Program/script' field, browse to select your Python executable (`python.exe`). In the 'Add arguments' field, enter the path to your script, such as `fetch_and_compare.py`.
+   - Under the 'Conditions' tab, you can specify additional conditions (like running the task only if the computer is on AC power).
+   - Under the 'Settings' tab, you can further customize the behavior of the task (like allowing the task to be restarted if it fails).
+3. **Save the Task**:
+   - Click 'OK' to save your settings and create the task.
+
+This setup will ensure your script runs automatically at the specified times without manual intervention, keeping your dataset regularly updated.
+
+### Unix-like Systems (Linux/macOS)
+
+For users on Unix-like systems, setting up a cron job is recommended:
+
+1. **Open your user's crontab**:
+   ```bash
+   crontab -e
+ Add a cron job: To schedule the script to run at regular intervals, such as daily at 3 AM, you would add the following line:
+```bash
+    0 3 * * * /usr/bin/python3 /path/to/fetch_and_compare.py.
+
+
 
 
 
