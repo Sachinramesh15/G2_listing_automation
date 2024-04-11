@@ -1,6 +1,8 @@
 # G2 Product Listing Automation
 
 This project automates the fetching of software product data from G2 and Product Hunt, compares the datasets to find unique entries in Product Hunt that are not listed in G2, and outputs these unique product names to a CSV file. It is intended to help users identify new software products on Product Hunt that may be potential candidates for inclusion on the G2 platform.
+# Approach:
+![Example Image](approach.png)
 
 ## Project Structure
 
