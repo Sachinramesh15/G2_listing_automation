@@ -8,7 +8,7 @@ This project automates the fetching of software product data from G2 and Product
 
 - `fetch_and_compare.py`: Main script that integrates fetching data from G2, fetching data from Product Hunt, comparing the data, and saving the results.
 - `requirements.txt`: Contains all Python dependencies for the project.
-- `output/`: Directory where the output CSV file `unique_names.csv` is stored after script execution.
+- `Output/`: Directory where the output CSV file `unique_names.csv` is stored after script execution.
 
 ## Getting Started
 
