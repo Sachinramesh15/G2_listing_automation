@@ -74,10 +74,3 @@ For users on Unix-like systems, setting up a cron job is recommended:
  Add a cron job: To schedule the script to run at regular intervals, such as daily at 3 AM, you would add the following line:
 ```bash
     0 3 * * * /usr/bin/python3 /path/to/fetch_and_compare.py.
-
-
-
-
-
-
-
