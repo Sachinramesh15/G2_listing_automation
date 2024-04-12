@@ -32,6 +32,19 @@ This project automates the fetching of software product data from G2 and Product
   export G2_API_KEY='your_g2_api_key'
   export PRODUCTHUNT_TOKEN='your_producthunt_token'
 The script will fetch data from both APIs, compare the data sets, and output the unique software names from Product Hunt to the output/unique_names.csv file.
+## Data Comparison Using Fuzzy String Matching
+
+The project utilizes the `fuzzywuzzy` Python library to perform fuzzy string matching, which is essential for identifying similar product names across different datasets. This method allows the system to detect products that may have slightly different names due to variations in spelling, punctuation, or abbreviation but are essentially the same.
+
+### How It Works
+
+1. **Extraction**: First, the script extracts product names from the JSON data retrieved from both the G2 and Product Hunt APIs.
+2. **Fuzzy Matching**: For each product name from Product Hunt, the script uses `fuzzywuzzy` to find the closest match in the list of G2 product names. This comparison is based on the Levenshtein distance, which measures the difference between two sequences.
+3. **Threshold Setting**: A similarity threshold is set (typically around 90%). Only matches that fall below this threshold are considered unique, indicating that no similar name exists in the G2 dataset.
+4. **Results**: Products from Product Hunt that do not have a close match in G2 are compiled into a list and output to a CSV file, signifying potential new entries for G2.
+
+This approach ensures a robust comparison mechanism, reducing the likelihood of missing closely related entries due to minor textual differences.
+
 ## Automating the Script
 
 ### Windows
